@@ -13,7 +13,6 @@ import kotlinx.coroutines.*
 class MyViewModel : ViewModel() {
 
     private var _zmiennaC: MutableLiveData<Int> = MutableLiveData<Int>()
-
     val zmiennaC: LiveData<Int>
         get() = _zmiennaC
 
